@@ -1,0 +1,130 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+img {
+   
+}
+
+/*----HERO--SECTION----*/
+#hero {
+    background-image: url("images/la-habana.jpg");
+    background-size: cover;
+    height: 343px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 0 0 1px black;
+}
+
+h1, h2 {
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+#hero-title {
+    background: #7BAECB;
+    border-radius: 10px;
+    padding: 3px 15px 5px;
+    margin-bottom: 16px;
+}
+
+#hero-text {
+    background: #A7A093;
+    width: 400px;
+    padding: 5px 28px 8px 28px;
+    font-size: 18.72px;
+    border-radius:  10px;
+}
+
+/*-- ACTIVITIES SECTION --*/
+
+#cards-container {
+    background: #F1FAEE;
+    color: #4A8FC9;
+ 
+}
+
+#cards-title {
+    margin-top: 0;
+    padding-top: 39px;
+    font-size: 24px;
+   
+}
+
+#cards-imgs-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rounded {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+    
+}
+
+/*---Fixing space gap between elements*/ 
+.cards-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 54px 38px 38px 34px; 
+}
+
+.cards-img h3 {
+    margin-bottom: 0px;
+   
+}
+
+/*---Fixing space gap between h3 and the img */ 
+
+.hovering:hover {
+    width: 200px;
+    height: 200px;
+}
+
+/*--- GUIDE SECTION ---*/
+
+#guide-container {
+    width: 500px;
+    height: 294px;
+    background: #DADADB;
+    margin: 50px auto ;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px #BDC3BE;
+    color: #1D3557;
+    text-shadow: 0 0 1px #BDC3BE;
+     
+}
+
+#avatar {
+    width: 180px;
+    margin: 23px 7px 23px 13px;
+    border-radius: 10px; 
+}
+
+.guide-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-right: 7px;
+   
+}
+
